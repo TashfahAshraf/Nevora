@@ -1,0 +1,372 @@
+[
+ {
+  "folder": "sun care",
+  "file": "sun-silk-face-fluid-spf-50",
+  "name": "sun-silk-face-fluid-spf-50"
+ },
+ {
+  "folder": "sun care",
+  "file": "daily-shield-spf-50",
+  "name": "daily-shield-spf-50"
+ },
+ {
+  "folder": "sun care",
+  "file": "mineral-cloud-spf-40",
+  "name": "mineral-cloud-spf-40"
+ },
+ {
+  "folder": "sun care",
+  "file": "invisible-veil-sunscreen-spf-50",
+  "name": "invisible-veil-sunscreen-spf-50"
+ },
+ {
+  "folder": "Lip Balm",
+  "file": "rose-veil-lip-treatment",
+  "name": "rose-veil-lip-treatment"
+ },
+ {
+  "folder": "Lip Balm",
+  "file": "overnight-lip-mask",
+  "name": "overnight-lip-mask"
+ },
+ {
+  "folder": "Lip Balm",
+  "file": "velvet-lip-balm",
+  "name": "velvet-lip-balm"
+ },
+ {
+  "folder": "Lip Balm",
+  "file": "sugar-silk-lip-scrub",
+  "name": "sugar-silk-lip-scrub"
+ },
+ {
+  "folder": "oils",
+  "file": "silk-drop-facial-oil",
+  "name": "silk-drop-facial-oil"
+ },
+ {
+  "folder": "oils",
+  "file": "calm-skin-elixir",
+  "name": "calm-skin-elixir"
+ },
+ {
+  "folder": "oils",
+  "file": "golden-ritual-facial-oil",
+  "name": "golden-ritual-facial-oil"
+ },
+ {
+  "folder": "oils",
+  "file": "midnight-bloom-face-oil",
+  "name": "midnight-bloom-face-oil"
+ },
+ {
+  "folder": "oils",
+  "file": "botanical-glow-oil",
+  "name": "botanical-glow-oil"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "calm-comfort-moisturizer",
+  "name": "calm-comfort-moisturizer"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "cloud-cream-moisturizer",
+  "name": "cloud-cream-moisturizer"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "daily-dew-moisturizer",
+  "name": "daily-dew-moisturizer"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "aqua-veil-gel-cream",
+  "name": "aqua-veil-gel-cream"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "rich-ritual-face-cream",
+  "name": "rich-ritual-face-cream"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "light-balance-gel-moisturizer",
+  "name": "light-balance-gel-moisturizer"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "barrier-silk-cream",
+  "name": "barrier-silk-cream"
+ },
+ {
+  "folder": "Moisturizers",
+  "file": "overnight-recovery-cream",
+  "name": "overnight-recovery-cream"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "rosewater-veil-essence",
+  "name": "rosewater-veil-essence"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "silk-skin-essence",
+  "name": "silk-skin-essence"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "clear-current-pore-toner",
+  "name": "clear-current-pore-toner"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "barrier-bloom-toner",
+  "name": "barrier-bloom-toner"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "dew-ritual-hydrating-essence",
+  "name": "dew-ritual-hydrating-essence"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "mineral-mist-facial-toner",
+  "name": "mineral-mist-facial-toner"
+ },
+ {
+  "folder": "Toners & Essences",
+  "file": "balance-mist-toner",
+  "name": "balance-mist-toner"
+ },
+ {
+  "folder": "body care",
+  "file": "calm-bath-soak",
+  "name": "calm-bath-soak"
+ },
+ {
+  "folder": "body care",
+  "file": "cloud-body-cream",
+  "name": "cloud-body-cream"
+ },
+ {
+  "folder": "body care",
+  "file": "velvet-body-lotion",
+  "name": "velvet-body-lotion"
+ },
+ {
+  "folder": "body care",
+  "file": "nourishing-hand-cream",
+  "name": "nourishing-hand-cream"
+ },
+ {
+  "folder": "body care",
+  "file": "silk-body-wash",
+  "name": "silk-body-wash"
+ },
+ {
+  "folder": "body care",
+  "file": "botanical-body-oil",
+  "name": "botanical-body-oil"
+ },
+ {
+  "folder": "Masks",
+  "file": "hydration-cloud-mask",
+  "name": "hydration-cloud-mask"
+ },
+ {
+  "folder": "Masks",
+  "file": "velvet-clay-mask",
+  "name": "velvet-clay-mask"
+ },
+ {
+  "folder": "Masks",
+  "file": "overnight-dew-mask",
+  "name": "overnight-dew-mask"
+ },
+ {
+  "folder": "Masks",
+  "file": "calm-botanical-mask",
+  "name": "calm-botanical-mask"
+ },
+ {
+  "folder": "Discovery Mini Collection",
+  "file": "barrier-silk-mini",
+  "name": "barrier-silk-mini"
+ },
+ {
+  "folder": "Discovery Mini Collection",
+  "file": "hydra-veil-mini",
+  "name": "hydra-veil-mini"
+ },
+ {
+  "folder": "Discovery Mini Collection",
+  "file": "cloud-cream-mini",
+  "name": "cloud-cream-mini"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "velvet-milk-cleansing-cream",
+  "name": "velvet-milk-cleansing-cream"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "purify-gel-cleanser",
+  "name": "purify-gel-cleanser"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "calm-skin-cream-cleanser",
+  "name": "calm-skin-cream-cleanser"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "cloud-veil-gentle-cleanser",
+  "name": "cloud-veil-gentle-cleanser"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "melt-away-cleansing-balm",
+  "name": "melt-away-cleansing-balm"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "aqua-balance-foaming-cleanser",
+  "name": "aqua-balance-foaming-cleanser"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "daily-reset-micellar-water",
+  "name": "daily-reset-micellar-water"
+ },
+ {
+  "folder": "Cleansers",
+  "file": "deep-ritual-clay-cleanser",
+  "name": "deep-ritual-clay-cleanser"
+ },
+ {
+  "folder": "Serums",
+  "file": "calm-current-serum",
+  "name": "calm-current-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "overnight-renewal-serum",
+  "name": "overnight-renewal-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "clear-skin-refining-serum",
+  "name": "clear-skin-refining-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "glass-dew-hydration-serum",
+  "name": "glass-dew-hydration-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "barrier-repair-concentrate",
+  "name": "barrier-repair-concentrate"
+ },
+ {
+  "folder": "Serums",
+  "file": "peptide-renewal-serum",
+  "name": "peptide-renewal-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "niacinamide-balance-serum",
+  "name": "niacinamide-balance-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "c-eclat-brightening-serum",
+  "name": "c-eclat-brightening-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "hydra-veil-serum",
+  "name": "hydra-veil-serum"
+ },
+ {
+  "folder": "Serums",
+  "file": "radiance-drop-serum",
+  "name": "radiance-drop-serum"
+ },
+ {
+  "folder": "Eye Care",
+  "file": "bright-eyes-concentrate",
+  "name": "bright-eyes-concentrate"
+ },
+ {
+  "folder": "Eye Care",
+  "file": "awake-eye-gel",
+  "name": "awake-eye-gel"
+ },
+ {
+  "folder": "Eye Care",
+  "file": "overnight-eye-recovery",
+  "name": "overnight-eye-recovery"
+ },
+ {
+  "folder": "Eye Care",
+  "file": "silk-eye-cream",
+  "name": "silk-eye-cream"
+ },
+ {
+  "folder": "Eye Care",
+  "file": "cooling-eye-essence",
+  "name": "cooling-eye-essence"
+ },
+ {
+  "folder": "Exfoliators",
+  "file": "renew-aha-treatment",
+  "name": "renew-aha-treatment"
+ },
+ {
+  "folder": "Exfoliators",
+  "file": "clear-bha-liquid",
+  "name": "Clear BHA Liquid"
+ },
+ {
+  "folder": "Exfoliators",
+  "file": "gentle-enzyme-polish",
+  "name": "gentle-enzyme-polish"
+ },
+ {
+  "folder": "Exfoliators",
+  "file": "daily-glow-pha-toner",
+  "name": "daily-glow-pha-toner"
+ },
+ {
+  "folder": "Exfoliators",
+  "file": "smooth-ritual-exfoliant",
+  "name": "smooth-ritual-exfoliant"
+ },
+ {
+  "folder": "Hair care",
+  "file": "deep-ritual-hair-mask",
+  "name": "deep-ritual-hair-mask"
+ },
+ {
+  "folder": "Hair care",
+  "file": "silk-drop-hair-serum",
+  "name": "silk-drop-hair-serum"
+ },
+ {
+  "folder": "Hair care",
+  "file": "hydra-balance-shampoo",
+  "name": "hydra-balance-shampoo"
+ },
+ {
+  "folder": "Hair care",
+  "file": "velvet-repair-conditioner",
+  "name": "velvet-repair-conditioner"
+ },
+ {
+  "folder": "Hair care",
+  "file": "silk-repair-shampoo",
+  "name": "silk-repair-shampoo."
+ }
+]
