@@ -1,520 +1,228 @@
-# NÉVORA — Beauty as Ritual
+# NÉVORA — Luxury Skincare E-Commerce Platform
 
-> A premium full-stack skincare e-commerce experience designed around the idea that skincare is more than a routine — it is a ritual.
+**NÉVORA** is a premium full-stack skincare e-commerce web application developed as an **internship task at Decode Labs**.
 
-NÉVORA is a full-stack skincare e-commerce web application combining a cinematic, editorial-style frontend with a functional Node.js backend and SQLite database.
-
-The project brings together premium visual design, product discovery, shopping functionality, order processing, reviews, sessions, database operations, server-side validation, and administrative product management in one complete web application.
+The project combines a luxury-focused, responsive frontend with a Node.js/Express backend and database integration to create a complete end-to-end e-commerce experience.
 
 ---
 
-## ✨ Features
+## ✨ Overview
 
-### 🛍️ Customer Storefront
+NÉVORA was designed around a modern luxury skincare aesthetic, with a strong focus on:
 
-* Premium skincare-focused storefront
-* Responsive product catalog
-* Product categories and collections
-* Product search and filtering
-* Product detail pages
-* Product images and thumbnails
-* Product pricing, sizes, stock, and descriptions
-* Skincare concerns and product information
-* Shopping cart functionality
-* Cart quantity management
-* Checkout and order placement
-* Cash on Delivery support
-* Customer reviews and ratings
-* Responsive desktop, tablet, and mobile layouts
+* Premium visual presentation
+* Responsive and interactive UI
+* Dynamic product components
+* Structured backend architecture
+* REST API integration
+* Database-driven product information
+* Scalable full-stack development practices
 
-### 🔐 Customer & Session Features
+The application includes **13 skincare product categories**, allowing products and their information to be presented through a dynamic and organized shopping experience.
 
-* Server-side session handling
-* Customer account/session support
-* Password hashing using `scrypt`
-* Password reset functionality
-* Server-side input validation
-* Protected administrative functionality
+---
 
-### 🧑‍💼 Admin Dashboard
+## 🚀 Key Features
 
-* Product management
-* Add products
-* Edit products
-* Update prices
-* Update stock
-* Update product information
-* Manage product categories
-* Manage product descriptions
-* Review order information
-* Manage storefront data
+### 🎨 Frontend
+
+* Modern luxury skincare-inspired interface
+* Responsive design for desktop, tablet, and mobile
+* Dynamic React.js components
+* Interactive product sections
+* Structured product categories
+* Premium visual assets and layouts
+* User-focused UI/UX
+* Smooth frontend-to-backend integration
+
+### ⚙️ Backend
+
+* Node.js server-side environment
+* Express.js backend framework
+* RESTful API endpoints
+* Server-side routing
+* Product data handling
+* Request and response management
+* Backend integration with the database
 
 ### 🗄️ Database
 
-* SQLite relational database
+* Database connection and configuration
 * Product data storage
-* Customer/session data
-* Order data
-* Review data
-* Database transactions
-* Parameterized SQL queries
-* Structured database operations
-
-### ⚙️ Backend & API
-
-* Node.js backend
-* REST-style API architecture
-* JSON request/response handling
-* Server-side validation
-* HTTP status code handling
-* Product operations
-* Cart and order processing
-* Session management
-* Static frontend hosting
+* Product pricing management
+* Inventory-related data
+* Database queries and data retrieval
+* Dynamic data communication between the backend and frontend
 
 ---
 
-## 🎨 Design & User Experience
+## 🛠️ Technology Stack
 
-NÉVORA is designed as a premium beauty brand rather than a conventional e-commerce template.
-
-The interface focuses on:
-
-* Editorial visual hierarchy
-* Luxury skincare aesthetics
-* Large product imagery
-* Clean typography
-* Spacious layouts
-* Smooth interactions
-* Responsive design
-* Product-focused sections
-* Mobile-friendly navigation
-* Consistent visual branding
-
-The goal is to combine **brand storytelling, product discovery, and functional e-commerce** within one immersive experience.
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript
-* Responsive Web Design
-* WebP image assets
-
-### Backend
-
-* Node.js
-* Native Node.js HTTP server
-* REST-style API endpoints
-* Server-side validation
-* Session management
-
-### Database
-
-* SQLite
-* SQL
-* Transactions
-* Parameterized queries
-* `node:sqlite`
-
-### Security
-
-* `scrypt` password hashing
-* Server-side validation
-* Session-based access control
-* Parameterized database queries
-
-### Development Tools
-
-* Git
-* GitHub
-* npm
-* Node.js
-
----
-
-## 📁 Project Structure
-
-```text
-N-VORA/
-│
-├── data/
-│   ├── images.json
-│   └── nevora.db
-│
-├── public/
-│   ├── img/
-│   │   └── p/
-│   │       ├── product-images.webp
-│   │       └── thumbnails.webp
-│   │
-│   ├── css/
-│   │   └── style.css
-│   │
-│   ├── js/
-│   │   ├── app.js
-│   │   ├── pages.js
-│   │   └── admin.js
-│   │
-│   └── index.html
-│
-├── .env.example
-├── db.js
-├── seed.js
-├── server.js
-├── package.json
-└── README.md
-```
+| Layer                 | Technologies                      |
+| --------------------- | --------------------------------- |
+| **Frontend**          | HTML5, CSS3, JavaScript, React.js |
+| **Backend**           | Node.js, Express.js               |
+| **Database**          | SQL / NoSQL                       |
+| **API**               | RESTful APIs                      |
+| **Development Tools** | Git, GitHub, VS Code              |
 
 ---
 
 ## 🔄 Application Architecture
 
-```text
-                    ┌─────────────────────┐
-                    │      NÉVORA UI      │
-                    │    HTML / CSS / JS  │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │    Node.js Server   │
-                    │   REST-style APIs   │
-                    └──────────┬──────────┘
-                               │
-                 ┌─────────────┴─────────────┐
-                 │                           │
-                 ▼                           ▼
-        ┌─────────────────┐        ┌─────────────────┐
-        │ Validation &    │        │ Session / Order │
-        │ Business Logic  │        │ Management      │
-        └────────┬────────┘        └────────┬────────┘
-                 │                          │
-                 └────────────┬─────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │       SQLite        │
-                    │      Database       │
-                    └─────────────────────┘
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-* Node.js 22.5+
-* Git
-* A modern web browser
-
-NÉVORA uses Node's built-in `node:sqlite`, so a separate SQLite installation is not required.
-
-Check your Node.js version:
-
-```bash
-node -v
-```
-
----
-
-## 📥 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/TashfahAshraf/N-VORA.git
-```
-
-### 2. Navigate to the Project
-
-```bash
-cd N-VORA
-```
-
-### 3. Install Dependencies
-
-```bash
-npm install
-```
-
----
-
-## 🔐 Environment Configuration
-
-Create a `.env` file based on the provided example:
-
-```bash
-cp .env.example .env
-```
-
-Configure the required environment variables before running the application.
-
-> Never commit private credentials, API keys, production secrets, or sensitive environment variables to GitHub.
-
----
-
-## 🗄️ Initialize the Database
-
-Run the seed script:
-
-```bash
-node seed.js
-```
-
-This initializes the NÉVORA database and populates the initial product catalog and development data.
-
----
-
-## ▶️ Run the Application
-
-Start the server:
-
-```bash
-node server.js
-```
-
-The application will be available at:
+NÉVORA follows a full-stack architecture where the different layers communicate with each other:
 
 ```text
-http://localhost:3000
+┌──────────────────────────┐
+│        React.js          │
+│        Frontend          │
+└────────────┬─────────────┘
+             │
+             │ REST API
+             ▼
+┌──────────────────────────┐
+│     Node.js + Express    │
+│        Backend           │
+└────────────┬─────────────┘
+             │
+             │ Database Queries
+             ▼
+┌──────────────────────────┐
+│        Database          │
+│ Product / Price / Stock  │
+└──────────────────────────┘
 ```
 
-Open the URL in your browser to view the NÉVORA storefront.
+This structure allows the frontend to request and display dynamic information while the backend handles application logic and database communication.
 
 ---
 
-## 🔄 Reset the Database
+## 🛍️ Product Experience
 
-If the reset script is available in `package.json`, the database can be reset and reseeded using:
+The application includes **13 product categories** focused on skincare and beauty products.
 
-```bash
-npm run reset
-```
-
-> **Warning:** Resetting the database recreates the seeded development database state.
-
----
-
-## 🛒 E-Commerce Flow
-
-The primary customer journey is structured around:
-
-```text
-Browse Products
-      ↓
-Search / Filter / Discover
-      ↓
-View Product
-      ↓
-Add to Cart
-      ↓
-Review Cart
-      ↓
-Checkout
-      ↓
-Place Order
-      ↓
-Order Stored in Database
-```
-
-This demonstrates both the visual storefront experience and the underlying e-commerce workflow.
-
----
-
-## 💳 Payment
-
-The current implementation supports:
-
-**Cash on Delivery (COD)**
-
-The payment structure can be extended in the future to support online payment providers and additional payment methods.
-
----
-
-## ⭐ Reviews
-
-NÉVORA supports product reviews and ratings.
-
-Development/demo reviews are included with the seeded application data.
-
-> Demo reviews and product information should be reviewed or replaced before using the application as a production storefront.
-
----
-
-## 🔐 Security
-
-The project implements several backend security practices, including:
-
-* Password hashing with `scrypt`
-* Parameterized SQL queries
-* Server-side input validation
-* Session-based access control
-* Database transactions
-* Separation of frontend and backend responsibilities
-
-Before production deployment, additional security hardening should be performed, including:
-
-* HTTPS
-* Secure production session configuration
-* Rate limiting
-* Production credential management
-* Secure cookie configuration
-* Payment security
-* Production database security
-* Additional input/output sanitization where applicable
-
----
-
-## ⚠️ Development & Production Notes
-
-The current repository is primarily a portfolio and development project.
-
-Before using NÉVORA as a production commercial store, review and replace:
-
-* Product information
-* Product pricing
-* Product stock
-* Product descriptions
-* Product imagery
-* Demo reviews
-* Contact information
-* Administrative credentials
-* Environment variables
-* Payment configuration
-* Production database configuration
-
-Any demonstration or placeholder content should be replaced with real business data before deployment.
+Product information can be managed through the backend and database layer, allowing the frontend to consume and display dynamic data rather than relying entirely on static content.
 
 ---
 
 ## 📱 Responsive Design
 
-NÉVORA is designed to provide a responsive experience across:
+NÉVORA is designed to provide a consistent experience across different screen sizes.
 
-* Desktop
-* Laptop
-* Tablet
-* Mobile devices
+The interface focuses on:
 
-The interface adapts navigation, product grids, typography, imagery, and interactive elements according to screen size.
-
----
-
-## 📸 Screenshots
-
-Screenshots can be added here to showcase the application.
-
-### Homepage
-
-*Add homepage screenshot here.*
-
-### Product Catalog
-
-*Add product catalog screenshot here.*
-
-### Product Details
-
-*Add product detail screenshot here.*
-
-### Shopping Cart
-
-*Add shopping cart screenshot here.*
-
-### Checkout
-
-*Add checkout screenshot here.*
-
-### Admin Dashboard
-
-*Add admin dashboard screenshot here.*
+* Desktop responsiveness
+* Tablet layouts
+* Mobile-friendly sections
+* Flexible product displays
+* Responsive navigation
+* Adaptable visual assets
 
 ---
 
-## 🌐 Live Demo
+## 📂 Project Structure
 
-**Live Website:**
-*Add your deployed NÉVORA URL here.*
+The project is organized into separate frontend and backend responsibilities to maintain a clear full-stack architecture.
 
-**GitHub Repository:**
-https://github.com/TashfahAshraf/N-VORA
+```text
+NÉVORA/
+│
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── ...
+│
+├── backend/
+│   ├── routes/
+│   ├── db.js
+│   ├── server.js
+│   └── ...
+│
+├── package.json
+├── README.md
+└── ...
+```
 
----
-
-## 📌 Future Improvements
-
-Potential future improvements include:
-
-* Online payment gateway integration
-* Customer order history
-* Order tracking
-* Wishlist functionality
-* Advanced product filtering
-* Product recommendations
-* Inventory alerts
-* Verified purchase reviews
-* Image upload management
-* Admin analytics dashboard
-* Customer profile management
-* Email notifications
-* Production-grade authentication
-* Automated testing
-* API documentation
-* Cloud database integration
-* Production monitoring
+> The exact folder structure may vary depending on the current implementation of the repository.
 
 ---
 
-## 🎯 Project Goals
+## 🎯 Internship Task
 
-NÉVORA was developed to demonstrate the ability to build a complete web application rather than only a static frontend.
+This project was completed as part of my **Decode Labs internship**.
 
-The project focuses on:
+The task provided hands-on experience with building a complete full-stack application rather than focusing only on the frontend.
 
-* Full-stack web development
+Through NÉVORA, I worked with:
+
+* React-based frontend development
+* Backend development with Node.js and Express.js
+* REST API integration
+* Database connectivity
+* Dynamic product data
 * Responsive UI/UX
-* REST-style backend architecture
-* Database design
-* CRUD operations
-* Server-side validation
-* Authentication and session management
-* E-commerce workflows
-* Administrative functionality
-* Clean project organization
-* Production-oriented development practices
+* Frontend-backend communication
+* Full-stack project organization
 
 ---
 
-## 👩‍💻 Author
+## 💡 What I Learned
 
-### Tashfah Ashraf
+Working on NÉVORA strengthened my practical understanding of how the different layers of a web application communicate.
 
-**Full-Stack Web Developer | BS Information Technology**
+### Frontend → Backend
 
-GitHub:
-https://github.com/TashfahAshraf
+React components communicate with backend API endpoints to request and work with application data.
 
-Portfolio:
-https://tashfahashraf.netlify.app
+### Backend → Database
+
+The Express.js backend handles database connections and queries through the database configuration.
+
+### Database → Frontend
+
+Stored product information is retrieved through the backend and ultimately displayed dynamically in the frontend.
+
+This provided practical experience with the complete flow:
+
+**UI → API → Server → Database → Server → API → UI**
 
 ---
 
-## 📄 License
+## 🔮 Future Improvements
 
-This project was created for educational, portfolio, and development purposes.
+Possible future enhancements include:
 
-Please review the licensing of all third-party assets, fonts, images, icons, and product imagery before using the project commercially.
+* User authentication and authorization
+* Shopping cart persistence
+* Wishlist functionality
+* Order management
+* Payment gateway integration
+* Admin dashboard
+* Advanced product filtering
+* Search functionality
+* Product reviews and ratings
+* User accounts and order history
 
 ---
 
-## 💖 NÉVORA
+## 👩‍💻 Developer
 
-**Beauty as Ritual.**
+**Tashfah Ashraf**
 
-*A skincare e-commerce experience where technology meets thoughtful design.*
+BS Information Technology Student | Full-Stack Web Developer
+
+Interested in building modern, responsive and production-oriented web applications.
+
+### 🔗 Links
+
+* **GitHub:** https://github.com/TashfahAshraf
+* **Portfolio:** https://tashfahashraf.netlify.app
+
+---
+
+## 📌 Project Status
+
+**Completed — Decode Labs Internship Task**
+
+Built with ❤️ using React.js, Node.js, Express.js and database integration.
